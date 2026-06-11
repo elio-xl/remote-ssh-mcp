@@ -1,0 +1,23 @@
+[package]
+name = "remote-ssh-mcp"
+version = "0.1.0"
+description = "Remote SSH MCP desktop app"
+authors = ["Remote SSH MCP"]
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "remote_ssh_mcp_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "remote-ssh-mcp"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2.7.1"

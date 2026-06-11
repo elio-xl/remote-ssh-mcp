@@ -1,0 +1,13 @@
+{
+  "name": "remote-ssh",
+  "description": "SSH remote server management — execute commands, transfer files, and manage plan/approval/audit workflows through MCP tools. For server ops, remote deployment, log inspection, and file sync.",
+  "version": "0.1.0",
+  "author": {
+    "name": "huangxiaolei"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/huangxiaolei/remote-ssh-mcp",
+  "keywords": ["ssh", "server", "remote", "deployment", "devops", "sftp", "linux", "运维"],
+  "category": "devops",
+  "skills": ["./skills/remote-ssh"]
+}
